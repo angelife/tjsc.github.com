@@ -25,18 +25,18 @@
 .. toctree::
    :maxdepth: 6
 
+   example
    reference
    christianity
    download
    event
-   log
-   version
-   term
-   book
-   example
    tips
    faq
+   log
+   term
+   book
    404
+   version
 
    
 
