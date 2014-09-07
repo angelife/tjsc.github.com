@@ -275,11 +275,13 @@ Here are examples of body elements:
 
         Directives:
 
-        .. image:: mylogo.png
+        .. image:: _static/C-02.png
+
 
         Substitution definitions:
 
-        .. |symbol here| image:: symbol.png
+        .. |symbol here| image:: _static/C-01.png
+
 
         Comments:
 
@@ -869,7 +871,7 @@ Possible uses include literate programming in Haskell and email quoting:
 
 John Doe wrote::
 
->> Great idea!
+>> Great idea!中国
 >
 > Why didn't I think of that?
 
@@ -904,7 +906,7 @@ This example illustrates the nesting of line blocks, indicated by the initial in
 
 Take it away, Eric the Orchestra Leader!
 
-    | A one, two, a one two three four
+    | A one, two, a one two three four  如果
     |
     | Half a bee, philosophically,
     |     must, *ipso facto*, half not be.
@@ -997,7 +999,7 @@ this is a Doctest block
 The following is a literal block::
 
     >>> This is not recognized as a doctest block by
-    reStructuredText.  It *will* be recognized by the doctest
+    reStructuredText.  It *will* be recognized by the doctest 问题
     module, though!
 
 Indentation is not required for doctest blocks.
@@ -1245,7 +1247,7 @@ Manual and automatic footnote numbering may both be used within a single documen
 
 .. [#label] This autonumber-labeled footnote will be labeled "1".
    It is the first auto-numbered footnote and no other footnote
-   with label "1" exists.  The order of the footnotes is used to
+   with label "1" exists.  The order of the footnotes is used to问题
    determine numbering, not the order of the footnote references.
 
 .. [#] This footnote will be labeled "3".  It is the second
@@ -1257,7 +1259,7 @@ Citations are identical to footnotes except that they use only non-numeric label
 
 Here is a citation reference: [CIT2002]_.
 
-.. [CIT2002] This is the citation.  It's just like a footnote,
+.. [CIT2002] This is the citation.  It's just like a footnote,问题
    except the label is textual.
 
 Hyperlink Targets
@@ -1413,13 +1415,14 @@ Directives are an extension mechanism for reStructuredText, a way of adding supp
 
 For example, here's how an image may be placed:
 
-.. image:: mylogo.jpeg
+.. image:: _static/C-02.png
+
 
 A figure (a graphic with a caption) may placed like this:
 
-.. figure:: larch.png
+.. figure:: _static/C-02.png
 
-   The larch.
+   The larch.（问题）
 
 An admonition (note, caution, etc.) contains other body elements:
 
@@ -1445,10 +1448,11 @@ The directive block is consists of any text on the first line of the directive a
 
 Individual directives can employ any combination of these parts. Directive arguments can be filesystem paths, URLs, title text, etc. Directive options are indicated using field lists; the field names and contents are directive-specific. Arguments and options must form a contiguous block beginning on the first or second line of the directive; a blank line indicates the beginning of the directive content block. If either arguments and/or options are employed by the directive, a blank line must separate them from the directive content. The "figure" directive employs all three parts:
 
-.. figure:: larch.png
-   :scale: 50
+.. figure:: _static/C-02.png
 
-   The larch.
+   :scale: 5000
+
+   The larch问题.
 
 Simple directives may not require any content. If a directive that does not employ a content block is followed by indented text anyway, it is an error. If a block quote should immediately follow a directive, use an empty comment in-between (see Comments below).
 
@@ -1475,7 +1479,8 @@ Substitution definitions are indicated by an explicit markup start (".. ") follo
 The |biohazard| symbol must be used on containers used to
 dispose of medical waste.
 
-.. |biohazard| image:: biohazard.png
+.. |biohazard| image:: _static/C-02.png
+
 
 It is an error for a substitution definition block to directly or indirectly contain a circular substitution reference.
 
@@ -1530,10 +1535,10 @@ Images
     West led the |H| 3, covered by dummy's |H| Q, East's |H| K,
     and trumped in hand with the |S| 2.
 
-    .. |H| image:: /images/heart.png
+    .. |H| image:: _static/C-02.png
        :height: 11
        :width: 11
-    .. |S| image:: /images/spade.png
+    .. |S| image:: _static/C-02.png
        :height: 11
        :width: 11
 
@@ -1541,13 +1546,13 @@ Images
     * |Green light| means go.
     * |Yellow light| means go really fast.
 
-    .. |Red light|    image:: red_light.png
+    .. |Red light|    image:: _static/C-01.png
     .. |Green light|  image:: green_light.png
     .. |Yellow light| image:: yellow_light.png
 
     |-><-| is the official symbol of POEE_.
 
-    .. |-><-| image:: discord.png
+    .. |-><-| image:: _static/C-01.png
     .. _POEE: http://www.poee.org/
 
     The "image" directive has been implemented.
@@ -1894,7 +1899,7 @@ For example:
 
 Please RTFM [1]_.
 
-.. [1] Read The Fine Manual
+.. [1] Read The Fine Manual 墙外
 
 Citation References
 

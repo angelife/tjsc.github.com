@@ -13,6 +13,10 @@
 
 “tjsc” 是由汉语拼音 “退教手册” 单词拼音"Tui Jiao Shou Ce" 的第一个字母组成。
 
+退教手册计划
+-------------
+
+.. image:: _static/plan.png
 反馈/联系作者
 -------------
 
@@ -22,8 +26,17 @@
    :maxdepth: 6
 
    reference
+   christianity
+   download
+   event
+   log
+   version
+   term
+   book
    example
    tips
    faq
+   404
+
    
 
