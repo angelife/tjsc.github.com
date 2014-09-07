@@ -4,8 +4,19 @@
 图书
 ========
 
+.. raw:: html
+   :file: book.html
+
 电影
 ========
 
+.. raw:: html
+   :file: movie.html
+
+
 音乐
 ========
+
+.. raw:: html
+   :file: music.html
+
