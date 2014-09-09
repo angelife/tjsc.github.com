@@ -28,6 +28,11 @@
    example
    reference
    christianity
+   contribute
+   consulation
+   ref
+   website
+   exercise
    download
    history
    event
