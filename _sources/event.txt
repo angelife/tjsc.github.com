@@ -338,3 +338,21 @@ http://tool.chinaz.com/beian.aspx
 .. image:: _static/083001.png
 
 
+
+
+事件分析
+=========
+
+【事件分析】经过诸多干扰之后，angelife.org网站的访问量直线下降，干扰了网站对问题的统计和分析
+----------------------------------------------------------------------------------------------
+
+
+.. image:: _static/Firefox_Screenshot_2014-09-09T00-33-37.297Z.png
+
+.. image:: _static/Firefox_Screenshot_2014-09-09T00-38-38.936Z.png
+
+.. image:: _static/Firefox_Screenshot_2014-09-09T00-38-58.313Z.png
+
+.. image:: _static/Firefox_Screenshot_2014-09-09T00-39-15.640Z.png
+
+.. image:: _static/Firefox_Screenshot_2014-09-09T00-39-32.049Z.png
